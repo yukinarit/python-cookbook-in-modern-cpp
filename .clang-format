@@ -1,0 +1,18 @@
+---
+AccessModifierOffset: -4
+ColumnLimit: 100
+TabWidth: 4
+IndentWidth: 4
+UseTab: Never
+AlignEscapedNewlinesLeft: false
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: true
+BinPackArguments: true
+BinPackParameters: true
+BreakBeforeBraces: Attach
+BreakConstructorInitializersBeforeComma: true
+PointerAlignment: Left
