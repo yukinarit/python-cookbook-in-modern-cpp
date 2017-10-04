@@ -27,11 +27,10 @@ int main() {
     fmt::print("max price: ({}, {})\n", (*max_it).second, (*max_it).first);
 
     fmt::print("sorted prices:\n");
-    std::vector<std::tuple<std::string, double>> rng =
-        prices | view::transform([](const auto& v) { return std::tuple(v.first, v.second); });
-    auto sorted = std::move(rng) | action::sort([](const auto& a, const auto& b) {
-                      return std::get<1>(a) < std::get<1>(b);
-                  });
+    auto sorted =
+        prices | view::transform([](const auto& v) { return std::tuple(v.first, v.second); }) |
+        to_vector |
+        action::sort([](const auto& a, const auto& b) { return std::get<1>(a) < std::get<1>(b); });
     for (const auto & [ name, price ] : sorted) {
         fmt::print("     {} {}\n", name, price);
     }
