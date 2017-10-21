@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.3)
 project(removing_duplicates_from_a_sequence_while_maintaining_order)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../../../cmake/")
-include(libs)
+include(all)
 
 add_subdirectory(${LIBS_DIR}/fmt ${CMAKE_CURRENT_BINARY_DIR}/fmt)
 
@@ -17,3 +17,5 @@ target_include_directories(
 target_link_libraries(
     removing_duplicates_from_a_sequence_while_maintaining_order	
 	fmt)
+
+cotire(removing_duplicates_from_a_sequence_while_maintaining_order)

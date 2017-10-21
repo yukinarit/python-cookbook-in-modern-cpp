@@ -33,6 +33,7 @@ constexpr void print(Container&& items) {
 }
 
 int main() {
+
     std::vector<int> items = {1, 5, 2, 1, 9, 1, 5, 10};
     std::set<int> seen;
 

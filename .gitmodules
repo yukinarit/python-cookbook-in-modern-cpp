@@ -4,3 +4,6 @@
 [submodule "libs/fmt"]
 	path = libs/fmt
 	url = https://github.com/fmtlib/fmt.git
+[submodule "cmake/cotire"]
+	path = cmake/cotire
+	url = https://github.com/sakra/cotire.git
