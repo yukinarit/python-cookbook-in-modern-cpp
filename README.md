@@ -1,4 +1,18 @@
-python-cookbook
-===============
+python-cookbook-in-modern-cpp
+=============================
 
-Code samples from the "Python Cookbook, 3rd Edition", published by O'Reilly &amp; Associates, May, 2013. 
+Welcome to python-cookbook-in-modern-cpp repo!
+This repo is to attempt to write python-cookbook code in modern C++.
+
+## Env
+
+macOS Sierra / clang 5.0
+CentOS 7.3 / gcc 7.2
+
+## Cookbook
+
+| Chapter | Recipe | Description | Python | C++ |
+|---------|--------|-------------|--------|-----|
+|    1    |        |             |        |     |
+|         |        |             |        |     |
+|         |        |             |        |     |
