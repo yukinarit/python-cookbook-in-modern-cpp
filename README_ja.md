@@ -36,9 +36,7 @@ cd build && make
 
 ## Cookbook
 
-| Chapter | Recipe | Description | Code |
-|:-------:|--------|-------------|------|
-| 1 | Carrying Extra State with Callback Functions | コールバックをいろいろな形式で書いてみる | [python](src/7/carrying_extra_state_with_callback_functions/example.py) / [C++](src/7/carrying_extra_state_with_callback_functions/example.cpp) |
-|         |                                              |                                          |                                                                                                                                     |
-|         |                                              |                                          |                                                                                                                                     |
-
+| Chapter | Recipe | Description | Code | Docs |
+|:-------:|--------|-------------|------|-----|
+| 1 | Carrying Extra State with Callback Functions | コールバックをいろいろな形式で書いてみる | [python](src/7/carrying_extra_state_with_callback_functions/example.py) / [C++](src/7/carrying_extra_state_with_callback_functions/example.cpp) | |
+| 7 | Defining Functions with Default Arguments | デフォルト引数に参照型を渡したときの落とし穴 | [python](src/7/carrying_extra_state_with_callback_functions/example.py) / [C++](src/7/carrying_extra_state_with_callback_functions/example.cpp) | [link](http://chimera.labs.oreilly.com/books/1230000000393/ch07.html#_problem_111) |
