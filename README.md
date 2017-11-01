@@ -1,6 +1,8 @@
 python-cookbook-in-modern-cpp
 =============================
 
+[日本語version](README_ja.md)
+
 Welcome to python-cookbook-in-modern-cpp repo!
 This repo is to attempt to write python-cookbook code in modern C++.
 
