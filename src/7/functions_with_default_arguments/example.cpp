@@ -10,7 +10,7 @@
 #include <range/v3/all.hpp>
 
 template <typename Container>
-constexpr void pprint(Container&& items) {
+void pprint(Container&& items) {
     fmt::print("[{}]\n", fmt::join(items.begin(), items.end(), ","));
 }
 
