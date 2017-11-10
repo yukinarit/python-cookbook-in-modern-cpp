@@ -7,3 +7,6 @@
 [submodule "cmake/cotire"]
 	path = cmake/cotire
 	url = https://github.com/sakra/cotire.git
+[submodule "libs/boost-cmake"]
+	path = libs/boost-cmake
+	url = https://github.com/Orphis/boost-cmake.git
