@@ -10,3 +10,6 @@
 [submodule "libs/boost-cmake"]
 	path = libs/boost-cmake
 	url = https://github.com/Orphis/boost-cmake.git
+[submodule "libs/date"]
+	path = libs/date
+	url = https://github.com/HowardHinnant/date.git

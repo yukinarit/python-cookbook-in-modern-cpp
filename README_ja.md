@@ -16,6 +16,8 @@ CentOS 7.3 / gcc 7.2
   - Generatorの代わりとしての遅延評価、各種アルゴリズム等のため
 * [fmt](https://github.com/fmtlib/fmt)
   - Pythonっぽいprint文が使いたかったため
+* [date](https://github.com/HowardHinnant/date)
+  - 日付計算のため
 
 ## Build
 
@@ -40,6 +42,7 @@ cd build && make
 |:-------:|--------|-------------|------|-----|
 | 1 | Carrying Extra State with Callback Functions | コールバックをいろいろな形式で書いてみる | [python](src/7/carrying_extra_state_with_callback_functions/example.py) / [C++](src/7/carrying_extra_state_with_callback_functions/example.cpp) | [link](http://chimera.labs.oreilly.com/books/1230000000393/ch07.html#_problem_116) |
 | 2 | Combining and Concatenating Strings | 文字列をJoinしたりBufferingしたりする | [python](src/2/combining_and_concatenating_strings/example.py) / [C++](src/2/combining_and_concatenating_strings/example.cpp) | [link](http://chimera.labs.oreilly.com/books/1230000000393/ch02.html#_solution_34) |
+| 3 | Determining Last Friday’s Date | 日付の計算をする | [python](src/3/determining_last_fridays_date/example.py) / [C++](src/3/determining_last_fridays_date/example.cpp) | [link](http://chimera.labs.oreilly.com/books/1230000000393/ch03.html#_problem_53) |
 | 7 | Defining Functions with Default Arguments | デフォルト引数に参照型を渡したときの落とし穴 | [python](src/7/functions_with_default_arguments/example.py) / [C++](src/7/functions_with_default_arguments/example.cpp) | [link](http://chimera.labs.oreilly.com/books/1230000000393/ch07.html#_problem_111) |
 
 ## References
