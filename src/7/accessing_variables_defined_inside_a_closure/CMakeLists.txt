@@ -2,8 +2,7 @@ cmake_minimum_required(VERSION 3.3)
 project(accessing_variables_defined_inside_a_closure)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../../../cmake/")
-include(fmt)
-include(libs)
+include(all)
 
 set(CMAKE_CXX_FLAGS "-g -Wall -std=c++17")
 

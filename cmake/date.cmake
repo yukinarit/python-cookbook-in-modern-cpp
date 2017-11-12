@@ -3,7 +3,7 @@ if(date_included)
 endif()
 set(date_included true)
 
-include(libs)
+include(vars)
 
 set(DATE_DIR "${LIBS_DIR}/date")
 set(DATE_INCLUDE_DIRS "${DATE_DIR}/include")

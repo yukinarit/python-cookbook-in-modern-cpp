@@ -2,18 +2,16 @@ cmake_minimum_required(VERSION 3.3)
 project(finding_the_largest_or_smallest_n_items)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../../../cmake/")
-include(libs)
-
-add_subdirectory(${LIBS_DIR}/fmt ${CMAKE_CURRENT_BINARY_DIR}/../../fmt)
+include(all)
 
 set(CMAKE_CXX_FLAGS "-g -Wall -std=c++17")
 
-add_executable(example example.cpp)
+add_executable(finding_the_largest_or_smallest_n_items example.cpp)
 
 target_include_directories(
-	example	PRIVATE
+	finding_the_largest_or_smallest_n_items PRIVATE
 	${RANGE_INCLUDE_DIR})
 
 target_link_libraries(
-	example
+	finding_the_largest_or_smallest_n_items
 	fmt)

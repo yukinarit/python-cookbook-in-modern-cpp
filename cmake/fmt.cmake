@@ -3,7 +3,7 @@ if(fmt_included)
 endif()
 set(fmt_included true)
 
-include(libs)
+include(vars)
 
 add_subdirectory(${LIBS_DIR}/fmt ${CMAKE_CURRENT_BINARY_DIR}/fmt)
 

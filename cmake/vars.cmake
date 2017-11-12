@@ -1,7 +1,7 @@
-if(libs_included)
+if(vars_included)
   return()
 endif()
-set(libs_included true)
+set(vars_included true)
 
 set(ROOT_DIR "${CMAKE_CURRENT_LIST_DIR}/..")
 
