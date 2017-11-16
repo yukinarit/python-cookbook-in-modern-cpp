@@ -2,9 +2,7 @@ cmake_minimum_required(VERSION 3.3)
 project(mapping_names_to_sequence_elements)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../../../cmake/")
-include(libs)
-
-add_subdirectory(${LIBS_DIR}/fmt ${CMAKE_CURRENT_BINARY_DIR}/fmt)
+include(all)
 
 set(CMAKE_CXX_FLAGS "-g -Wall -std=c++17")
 

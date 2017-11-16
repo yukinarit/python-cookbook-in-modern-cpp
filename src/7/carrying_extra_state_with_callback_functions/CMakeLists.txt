@@ -6,12 +6,12 @@ include(all)
 
 set(CMAKE_CXX_FLAGS "-g -Wall -std=c++17")
 
-add_executable(example example.cpp)
+add_executable(carrying_extra_state_with_callback_functions example.cpp)
 
 target_include_directories(
-	example PRIVATE
+	carrying_extra_state_with_callback_functions PRIVATE
 	${RANGE_INCLUDE_DIR})
 
 target_link_libraries(
-    example
+    carrying_extra_state_with_callback_functions
 	fmt)

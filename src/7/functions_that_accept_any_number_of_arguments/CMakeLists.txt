@@ -6,12 +6,12 @@ include(all)
 
 set(CMAKE_CXX_FLAGS "-g -Wall -std=c++17")
 
-add_executable(example example.cpp)
+add_executable(functions_that_accept_any_number_of_arguments example.cpp)
 
 target_include_directories(
-	example PRIVATE
+	functions_that_accept_any_number_of_arguments PRIVATE
 	${RANGE_INCLUDE_DIR})
 
 target_link_libraries(
-    example
+    functions_that_accept_any_number_of_arguments
 	fmt)
