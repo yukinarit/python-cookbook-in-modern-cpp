@@ -17,5 +17,3 @@ target_include_directories(
 target_link_libraries(
     removing_duplicates_from_a_sequence_while_maintaining_order	
 	fmt)
-
-cotire(removing_duplicates_from_a_sequence_while_maintaining_order)

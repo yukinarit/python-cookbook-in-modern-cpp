@@ -3,8 +3,6 @@ if(all_included)
 endif()
 set(all_included true)
 
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cotire/CMake")
-
 include(vars)
 include(fmt)
 include(date)

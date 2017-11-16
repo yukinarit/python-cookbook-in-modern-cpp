@@ -15,5 +15,3 @@ target_include_directories(
 target_link_libraries(
     example
 	fmt)
-
-cotire(example)

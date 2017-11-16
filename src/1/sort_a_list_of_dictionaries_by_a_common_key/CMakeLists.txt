@@ -17,5 +17,3 @@ target_include_directories(
 target_link_libraries(
     sort_a_list_of_dictionaries_by_a_common_key
 	fmt)
-
-cotire(sort_a_list_of_dictionaries_by_a_common_key)
