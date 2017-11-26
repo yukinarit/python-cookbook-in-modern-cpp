@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.3)
+project(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments)
+
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../../../cmake/")
+include(all)
+
+set(CMAKE_CXX_FLAGS "-g -Wall -std=c++17")
+
+add_executable(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments1 example1.cpp)
+target_include_directories(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments1 PRIVATE ${RANGE_INCLUDE_DIR})
+target_link_libraries(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments1 fmt)
+
+add_executable(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments2 example2.cpp)
+target_include_directories(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments2 PRIVATE ${RANGE_INCLUDE_DIR})
+target_link_libraries(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments2 fmt pthread)
+
+# TODO
+#add_executable(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments3 example3.cpp)
+#target_include_directories(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments3 PRIVATE ${RANGE_INCLUDE_DIR} ${NETWORKTS_INCLUDE_DIR})
+#target_link_libraries(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments3 fmt pthread)
