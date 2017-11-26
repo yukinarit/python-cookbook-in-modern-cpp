@@ -28,7 +28,7 @@ void apply_async(F&& f, Callback&& cb, Args&&... args) {
 
 // A simple function for testing
 template <typename T>
-auto add(const T& x, const T& y) {
+T add(const T& x, const T& y) {
     return x + y;
 }
 
