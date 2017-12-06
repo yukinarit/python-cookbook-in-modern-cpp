@@ -19,8 +19,8 @@ double hypot(double x, double y) {
 
 template <typename T>
 double distance(const std::tuple<T, T>& p1, const std::tuple<T, T>& p2) {
-    auto[x1, y1] = p1;
-    auto[x2, y2] = p2;
+    auto [x1, y1] = p1;
+    auto [x2, y2] = p2;
     return hypot(x2 - x1, y2 - y1);
 }
 
@@ -31,13 +31,17 @@ std::ostream& operator<<(std::ostream& os, std::tuple<T, T> t) {
 
 template <typename Container>
 void pprint(Container&& items) {
-    fmt::print("[{}]\n", fmt::join(items.begin(), items.end(), ","));
+    // FIX for clang6
+    // std::cout << fmt::join(items.begin(), items.end(), ",");
 }
 
 int main() {
     std::tuple<int, int> pt{4, 3};
     std::vector<std::tuple<int, int>> points{
-        {1, 2}, {3, 4}, {5, 6}, {7, 7},
+        {1, 2},
+        {3, 4},
+        {5, 6},
+        {7, 7},
     };
     std::sort(points.begin(), points.end(),
               [&pt](const auto& a, const auto& b) { return distance(pt, a) < distance(pt, b); });

@@ -4,7 +4,7 @@ project(removing_duplicates_from_a_sequence_while_maintaining_order)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../../../cmake/")
 include(all)
 
-set(CMAKE_CXX_FLAGS "-g -Wall -std=c++17")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall -std=c++17")
 
 add_executable(removing_duplicates_from_a_sequence_while_maintaining_order example.cpp)
 

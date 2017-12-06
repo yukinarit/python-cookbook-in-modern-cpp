@@ -4,7 +4,7 @@ project(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../../../cmake/")
 include(all)
 
-set(CMAKE_CXX_FLAGS "-g -Wall -std=c++17")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall -std=c++17")
 
 add_executable(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments1 example1.cpp)
 target_include_directories(making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments1 PRIVATE ${RANGE_INCLUDE_DIR})
