@@ -22,13 +22,13 @@ int main() {
         action::sort(words) | view::group_by([](const auto& a, const auto& b) { return a == b; });
     for_each(grouped, [&counted](auto rng) { counted.emplace_back(*rng.begin(), distance(rng)); });
 
-    auto most_common3 =
-        action::sort(counted, [](auto& t) { return std::get<1>(t) < std::get<1>(t); }) |
-        view::take(3);
+    auto sorted =
+        action::sort(counted, [](auto& l, auto& r) { return std::get<1>(l) > std::get<1>(r); });
+    auto most_common3 = sorted | view::take(3);
 
-    // for (auto & [ word, count ] : most_common3) {
-    //    fmt::print("({}, count={})\n", word, count);
-    //}
+    for (auto & [ word, count ] : most_common3) {
+        fmt::print("({}, count={})\n", word, count);
+    }
 
     return 0;
 }
