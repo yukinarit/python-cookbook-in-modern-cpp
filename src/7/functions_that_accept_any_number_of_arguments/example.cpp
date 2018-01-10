@@ -14,6 +14,11 @@
 
 using namespace ranges;
 using namespace std::string_literals;
+template <typename T, typename U>
+struct KeyValue {
+    T key{};
+    U value{};
+};
 
 template <typename T, typename... Args>
 constexpr auto avg(T first, Args... rest) {
@@ -21,23 +26,24 @@ constexpr auto avg(T first, Args... rest) {
 }
 
 template <typename T, typename U>
-std::ostream& operator<<(std::ostream& os, const std::pair<T, U>& pair) {
-    return os << std::get<0>(pair) << "=\"" << std::get<1>(pair) << "\" ";
+std::ostream& operator<<(std::ostream& os, const KeyValue<T, U>& kv) {
+    return os << " " << kv.key << "=\"" << kv.value << "\"";
 }
 
 template <typename... Args>
 std::string make_element(const std::string& name, const std::string& value, Args&&... args) {
     std::ostringstream ss;
     (ss << ... << args);
-    return fmt::format("<{0} {2}>{1}</{0}>", name, value, ss.str());
+    return fmt::format("<{0}{2}>{1}</{0}>", name, value, ss.str());
 }
 
 int main() {
     fmt::print("{}\n", avg(1, 2));
     fmt::print("{}\n", avg(1, 2, 3, 4));
 
-    fmt::print("{}\n", make_element("item", "Albatross", std::pair("size", "large"),
-                                    std::pair("quantity", 6)));
+    fmt::print("{}\n", make_element("item", "Albatross",
+                                    KeyValue<std::string, std::string>{"size", "large"},
+                                    KeyValue<std::string, int>{"quantity", 6}));
     fmt::print("{}\n", make_element("p", "<spam>"));
 
     return 0;
