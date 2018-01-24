@@ -1,6 +1,6 @@
 /// example.cpp
 ///
-/// Remove duplicate entries from a sequence while keeping order
+/// Sort a list of a dicts on a common key
 
 #include <iostream>
 #include <set>
