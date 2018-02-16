@@ -70,6 +70,7 @@ cd build && make
 | 7 | Making an N-Argument Callable Work As a Callable With Fewer Arguments | An example3 using partial(bind in C++) | [python](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example3.py) / [C++](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example3.cpp) | [link](http://chimera.labs.oreilly.com/books/1230000000393/ch07.html#partial) |
 | 12 | Communicating Between Threads | An example using mutex and locks | [python](src/12/how_to_communicate_between_threads/example1.py) / [C++](src/12/how_to_communicate_between_threads/example1.cpp) | [link](http://chimera.labs.oreilly.com/books/1230000000393/ch12.html#thread_communication) |
 | 12 | Communicating Between Threads | An example using condition variable | [python](src/12/how_to_communicate_between_threads/example2.py) / [C++](src/12/how_to_communicate_between_threads/example2.cpp) | [link](http://chimera.labs.oreilly.com/books/1230000000393/ch12.html#thread_communication) |
+| 12 | How to create thread pool | Creating simple thread pool using lock and condition variable | [python](src/12/how_to_create_a_thread_pool/example1.py) / [C++](src/12/how_to_create_a_thread_pool/example1.cpp) |  |
 
 ## References
 
