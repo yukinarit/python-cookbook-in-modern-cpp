@@ -8,7 +8,7 @@ This repo is to attempt to write python-cookbook code in modern C++.
 
 ## Env
 
-macOS Sierra / clang 5.0
+macOS Sierra / clang 6.0
 CentOS 7.3 / gcc 7.2
 
 ## Dependencies
@@ -19,11 +19,17 @@ CentOS 7.3 / gcc 7.2
   - For python like str.format.
 * [date](https://github.com/HowardHinnant/date)
   - For date calculation.
+* [libzmq](https://github.com/zeromq/libzmq)
+  - For networking.
+* [zmqpp](https://github.com/zeromq/zmqpp)
+  - For networking.
 
 ## Build
 
 Build all
 ```bash
+git clone --recursive https://github.com/yukinarit/python-cookbook-in-modern-cpp.git
+cd python-cookbook-in-modern-cpp
 mkdir build
 cmake ../src
 cd build && make
