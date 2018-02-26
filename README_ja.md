@@ -20,6 +20,10 @@ CentOS 7.3 / gcc 7.2
   - Pythonっぽいprint文が使いたかったため
 * [date](https://github.com/HowardHinnant/date)
   - 日付計算のため
+* [libzmq](https://github.com/zeromq/libzmq)
+  - 通信のため
+* [zmqpp](https://github.com/zeromq/zmqpp)
+  - 通信のため
 
 ## Build
 
@@ -71,5 +75,8 @@ cd build && make
 | 7 | Making an N-Argument Callable Work As a Callable With Fewer Arguments | partial(C++ではbind的な)使うサンプル2  | [python](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example2.py) / [C++](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example2.cpp) |
 | 7 | Making an N-Argument Callable Work As a Callable With Fewer Arguments | partial(C++ではbind的な)使うサンプル3  | [python](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example3.py) / [C++](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example3.cpp) |
 | 9 | Applying Decorators to Class and Static Methods | Variadic templateとマクロを使ってデコレータっぽいのを再現する | [python](src/9/applying_decorators_to_class_and_static_methods/example.py) / [C++](src/9/applying_decorators_to_class_and_static_methods/example.cpp) |
+| 11 | Creating a TCP server | TCPのechoクライアントを作る | [python](src/11/creating_a_tcp_server/echoclient.py) / [C++](src/11/creating_a_tcp_server/echoclient.cpp) |
+| 11 | Creating a TCP server | TCPのechoサーバーを作る | [python](src/11/creating_a_tcp_server/echoserv.py) / [C++](src/11/creating_a_tcp_server/echoserv.cpp) |
+| 11 | Creating a TCP server | iostreamっぽいのインターフェースを使ってTCPのechoサーバーを作る | [python](src/11/creating_a_tcp_server/echoserv2.py) / [C++](src/11/creating_a_tcp_server/echoserv2.cpp) |
 | 12 | Communicating Between Threads | mutexとlocksを使うサンプル | [python](src/12/how_to_communicate_between_threads/example1.py) / [C++](src/12/how_to_communicate_between_threads/example1.cpp) |
 | 12 | Communicating Between Threads | condition variableを使うサンプル | [python](src/12/how_to_communicate_between_threads/example2.py) / [C++](src/12/how_to_communicate_between_threads/example2.cpp) |
