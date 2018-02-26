@@ -10,3 +10,9 @@
 [submodule "libs/date"]
 	path = libs/date
 	url = https://github.com/HowardHinnant/date.git
+[submodule "libs/libzmq"]
+	path = libs/libzmq
+	url = https://github.com/zeromq/libzmq.git
+[submodule "libs/zmqpp"]
+	path = libs/zmqpp
+	url = https://github.com/zeromq/zmqpp.git
