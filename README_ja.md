@@ -40,8 +40,8 @@ cd build && make
 
 ## Cookbook
 
-| Chapter | Recipe | Description | Code | Docs |
-|:-------:|--------|-------------|------|------|
+| Chapter | Recipe | Description | Code |
+|:-------:|--------|-------------|------|
 | 1 | Determining the Most Frequently Occurring Items in a Sequence | リストから歳頻出の要素を探し出す | [python](src/1/determine_the_top_n_items_occurring_in_a_list/example.py) / [C++](src/1/determine_the_top_n_items_occurring_in_a_list/example.cpp) |
 | 1 | Calculating with Dictionaries | dictから値がmax/minの要素を探し出す | [python](src/1/calculating_with_dictionaries/example.py) / [C++](src/1/calculating_with_dictionaries/example.cpp) |
 | 1 | Filtering Sequence Elements | リストにいろいろなフィルタリングをかける | [python](src/1/filtering_list_elements/example.py) / [C++](src/1/filtering_list_elements/example.cpp) |
@@ -70,6 +70,6 @@ cd build && make
 | 7 | Making an N-Argument Callable Work As a Callable With Fewer Arguments | partial(C++ではbind的な)使うサンプル1  | [python](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example1.py) / [C++](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example1.cpp) |
 | 7 | Making an N-Argument Callable Work As a Callable With Fewer Arguments | partial(C++ではbind的な)使うサンプル2  | [python](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example2.py) / [C++](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example2.cpp) |
 | 7 | Making an N-Argument Callable Work As a Callable With Fewer Arguments | partial(C++ではbind的な)使うサンプル3  | [python](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example3.py) / [C++](src/7/making_an_n-argument_callable_work_as_a_callable_with_fewer_arguments/example3.cpp) |
-| 9 | Applying Decorators to Class and Static Methods | Variadic templateとマクロを使ってデコレータっぽいのを再現する | [python](src/9/applying_decorators_to_class_and_static_methods/example.py) / [C++](src/9/applying_decorators_to_class_and_static_methods/example.cpp) | |
+| 9 | Applying Decorators to Class and Static Methods | Variadic templateとマクロを使ってデコレータっぽいのを再現する | [python](src/9/applying_decorators_to_class_and_static_methods/example.py) / [C++](src/9/applying_decorators_to_class_and_static_methods/example.cpp) |
 | 12 | Communicating Between Threads | mutexとlocksを使うサンプル | [python](src/12/how_to_communicate_between_threads/example1.py) / [C++](src/12/how_to_communicate_between_threads/example1.cpp) |
 | 12 | Communicating Between Threads | condition variableを使うサンプル | [python](src/12/how_to_communicate_between_threads/example2.py) / [C++](src/12/how_to_communicate_between_threads/example2.cpp) |

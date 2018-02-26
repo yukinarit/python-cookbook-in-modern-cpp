@@ -45,8 +45,8 @@ cd build && make
 
 ## Cookbook
 
-| Chapter | Recipe | Description | Code | Docs |
-|:-------:|--------|-------------|------|-----|
+| Chapter | Recipe | Description | Code |
+|:-------:|--------|-------------|------|
 | 1 | Determining the Most Frequently Occurring Items in a Sequence | Find an item that has the most occurence in list | [python](src/7/determine_the_top_n_items_occurring_in_a_list/example.py) / [C++](src/7/determine_the_top_n_items_occurring_in_a_list/example.cpp) |
 | 1 | Calculating with Dictionaries | Calculating max/min of item in dictionary | [python](src/1/calculating_with_dictionaries/example.py) / [C++](src/1/calculating_with_dictionaries/example.cpp) |
 | 1 | Filtering Sequence Elements | Appliying various filterings to list | [python](src/1/filtering_list_elements/example.py) / [C++](src/1/filtering_list_elements/example.cpp) |
