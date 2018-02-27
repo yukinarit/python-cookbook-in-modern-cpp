@@ -78,5 +78,6 @@ cd build && make
 | 11 | Creating a TCP server | TCPのechoクライアントを作る | [python](src/11/creating_a_tcp_server/echoclient.py) / [C++](src/11/creating_a_tcp_server/echoclient.cpp) |
 | 11 | Creating a TCP server | TCPのechoサーバーを作る | [python](src/11/creating_a_tcp_server/echoserv.py) / [C++](src/11/creating_a_tcp_server/echoserv.cpp) |
 | 11 | Creating a TCP server | iostreamっぽいのインターフェースを使ってTCPのechoサーバーを作る | [python](src/11/creating_a_tcp_server/echoserv2.py) / [C++](src/11/creating_a_tcp_server/echoserv2.cpp) |
+| 11 | Creating a TCP server | setsockoptでソケットのオプションを設定する | [python](src/11/creating_a_tcp_server/echoserv3.py) / [C++](src/11/creating_a_tcp_server/echoserv3.cpp) |
 | 12 | Communicating Between Threads | mutexとlocksを使うサンプル | [python](src/12/how_to_communicate_between_threads/example1.py) / [C++](src/12/how_to_communicate_between_threads/example1.cpp) |
 | 12 | Communicating Between Threads | condition variableを使うサンプル | [python](src/12/how_to_communicate_between_threads/example2.py) / [C++](src/12/how_to_communicate_between_threads/example2.cpp) |

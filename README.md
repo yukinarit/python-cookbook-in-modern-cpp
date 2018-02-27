@@ -78,6 +78,7 @@ cd build && make
 | 11 | Creating a TCP server | Creating a TCP echo client | [python](src/11/creating_a_tcp_server/echoclient.py) / [C++](src/11/creating_a_tcp_server/echoclient.cpp) |
 | 11 | Creating a TCP server | Creating a TCP echo server | [python](src/11/creating_a_tcp_server/echoserv.py) / [C++](src/11/creating_a_tcp_server/echoserv.cpp) |
 | 11 | Creating a TCP server | Creating a TCP echo server using iostream like interface | [python](src/11/creating_a_tcp_server/echoserv2.py) / [C++](src/11/creating_a_tcp_server/echoserv2.cpp) |
+| 11 | Creating a TCP server | Setting option by setsockopt | [python](src/11/creating_a_tcp_server/echoserv3.py) / [C++](src/11/creating_a_tcp_server/echoserv3.cpp) |
 | 12 | Communicating Between Threads | An example using mutex and locks | [python](src/12/how_to_communicate_between_threads/example1.py) / [C++](src/12/how_to_communicate_between_threads/example1.cpp) |
 | 12 | Communicating Between Threads | An example using condition variable | [python](src/12/how_to_communicate_between_threads/example2.py) / [C++](src/12/how_to_communicate_between_threads/example2.cpp) |
 | 12 | How to create thread pool | Creating simple thread pool using lock and condition variable | [python](src/12/how_to_create_a_thread_pool/example1.py) / [C++](src/12/how_to_create_a_thread_pool/example1.cpp) |
