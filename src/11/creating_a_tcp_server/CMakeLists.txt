@@ -24,10 +24,6 @@ add_executable(echoserv3 echoserv3.cpp)
 target_include_directories(echoserv3 PRIVATE ${RANGE_INCLUDE_DIR} ${ZMQ_INCLUDE_DIRS})
 target_link_libraries(echoserv3 fmt zmqpp ${CMAKE_THREAD_LIBS_INIT})
 
-add_executable(echoserv4 echoserv4.cpp)
-target_include_directories(echoserv4 PRIVATE ${RANGE_INCLUDE_DIR} ${ZMQ_INCLUDE_DIRS})
-target_link_libraries(echoserv4 fmt zmqpp ${CMAKE_THREAD_LIBS_INIT})
-
-add_executable(echoserv5 echoserv5.cpp)
-target_include_directories(echoserv5 PRIVATE ${RANGE_INCLUDE_DIR} ${ZMQ_INCLUDE_DIRS})
-target_link_libraries(echoserv5 fmt zmqpp ${CMAKE_THREAD_LIBS_INIT})
+add_executable(threadedserv threadedserv.cpp)
+target_include_directories(threadedserv PRIVATE ${RANGE_INCLUDE_DIR} ${ZMQ_INCLUDE_DIRS})
+target_link_libraries(threadedserv fmt zmqpp ${CMAKE_THREAD_LIBS_INIT})

@@ -6,10 +6,10 @@ set(zmq_included true)
 include(vars)
 
 set(ZEROMQ_LIBRARY_STATIC ON)
-set(BUILD_TESTS OFF)
 set(ZMQ_BUILD_TESTS OFF)
+set(BUILD_TESTS OFF)
 set(WITH_DOC OFF)
-add_subdirectory(${LIBS_DIR}/libzmq ${CMAKE_CURRENT_BINARY_DIR}/libzmq)
+# add_subdirectory(${LIBS_DIR}/libzmq ${CMAKE_CURRENT_BINARY_DIR}/libzmq)
 add_subdirectory(${LIBS_DIR}/zmqpp ${CMAKE_CURRENT_BINARY_DIR}/zmqpp)
 
 set(ZMQ_DIR "${LIBS_DIR}/zmqpp")
